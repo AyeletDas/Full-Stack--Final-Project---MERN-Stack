@@ -1,0 +1,94 @@
+
+.links-Route { /* Navbar.jsx */
+  display: flex;
+  gap: 15px;
+  background-color: #ebdfe4;
+}
+
+.links-Route a { /* Navbar.jsx */
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.links-Route a:hover { /* Navbar.jsx */
+  background-color: #fff0f0;
+  color: #ed9cbc;
+  text-decoration: none;
+}
+
+.subscriptions-container { /* AddMember.jsx, Subscriptions.jsx */
+  width: 100%;
+  max-width: 650px;
+  padding: 20px;
+  margin: 0 auto 10px 0;
+  border: 3px solid black;
+  position: relative;
+}
+
+.container { /* AddMember.jsx, Movies.jsx, Subscriptions.jsx*/
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.div-container-subscriptions { /* AddMember.jsx, Subscriptions.jsx */
+  border: 3px solid black;
+  width: 700px;
+}
+
+.div-container-editMovie { /* EditMember.jsx, EditMovie.jsx*/
+  border: 3px solid black;
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+}
+
+.div-Movies-Watched { /* Subscriptions.jsx */
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto 10px 0;
+  border: 3px solid black;
+  position: relative;
+  background-color: bisque;
+}
+
+.div-Add-A-new-Movie { /* SubscriptionsMoviesWatched.jsx */
+  max-width: 400px;
+  padding: 20px;
+  margin: 0 auto 10px 0;
+  border: 3px solid red;
+  position: relative;
+  background-color: bisque;
+}
+
+.movie-container { /* Movies.jsx */
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto 10px 0;
+  border: 3px solid black;
+  position: relative;
+  white-space: nowrap;
+}
+
+.movie-container img { /* Movies.jsx */
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.SubscriptionsMoviesWatched-container { /* Movies.jsx */
+  display: inline-block;
+  vertical-align: middle;
+  border: 3px solid black;
+  background-color: bisque;
+}
+
+.background-color-all-page { /* App.jsx */
+  background-color: rgb(234, 223, 210);
+}
